@@ -3,7 +3,12 @@
 /public/hot
 /public/storage
 /storage/*.key
-/vendor
+/vendor/*
+!/vendor/tightenco
+/vendor/tightenco/*
+!/vendor/tightenco/ziggy
+/vendor/tightenco/ziggy/*
+!/vendor/tightenco/ziggy/dist
 .env
 .env.backup
 .env.production
