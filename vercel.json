@@ -17,7 +17,7 @@
         }
     ],
     "public": true,
-    "buildCommand": "npm run build",
+    "buildCommand": "npm install && npm run build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
@@ -39,7 +39,7 @@
 
 
         "DB_CONNECTION": "pgsql",
-        "DATABASE_URL": "postgresql://postgres.nxualfcbfpboaeoksbdg:ZxavIW30G6YgwP0c@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
+        "DATABASE_URL": "postgresql://postgres.gtjbmzvlypgofkbznmgk:rXyCWhhzZGmH64WE@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
 
         
     }
